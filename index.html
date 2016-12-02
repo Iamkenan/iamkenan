@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kenan</title>
+
+    <link rel="icon" href="images/icon5.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.1.0/octicons.min.css">
+    <link rel="stylesheet" href="css/inti.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="idiv" style="">
+      <a href="mailto:hi@iamkenan.com?Subject=Hello" class="href">
+        <p><img align="right" src="images/email.png" class="img-responsive" alt="email"></p>
+      </a>
+    </div>
+    <div class="container-fluid text-left text-primary">
+      <div class="row col-md-10 intro">
+        <p>Hi<span>!</span></p>
+        <p>I'm Kenan.</p>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $('.href').hide();
+      $('.href').animate({width:'toggle'}, 4000);
+      $( ".row p" )
+        .animate({
+          width: "100%"
+        }, {
+          queue: false,
+          duration: 3000
+        })
+        .animate({ fontSize: "800%" }, 1600 )
+        .animate({ borderRightHeight: "15px" }, 1500 );
+    </script>
+  </body>
+</html>
